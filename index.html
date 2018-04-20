@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="new.js"></script>
+    <meta charset="UTF-8">
+    <title>Register form</title>
+</head>
+<body>
+
+<h2>Registrer deg her</h2>
+
+
+<div class="sign-up-content">
+    <form id="my-form">
+        <div class="container">
+            <p>Vennligst fyll inn dette skjemaet for å opprette en konto.</p>
+            <hr>
+            <label for="name"><strong>Navn</strong></label>
+            <input id ="name" type="text" placeholder="Legg til Navn" name="name" required>
+
+            <label for="username"><strong>Brukernavn</strong></label>
+            <input id="username" type="text" title="username" placeholder="Legg til brukernavn" name="username" required>
+
+            <label for="email"><strong>E-post</strong></label>
+            <input id="email" type="text" placeholder="Legg til E-post" name="email" required>
+
+            <label for="psw"><strong>Passord</strong></label>
+            <input id="psw" type="password" placeholder="Legg til Passord" name="psw" required>
+
+            <p><strong>kjønn:</strong></p>
+            <input type="radio" name="sex" class="radio-button"> Kvinne
+            <input type="radio" name="sex" class="radio-button">Mann
+            <br>
+
+            <label>
+                <input type="checkbox" checked="checked" name="Husk meg" style="margin-bottom:15px"> Husk meg
+            </label>
+
+            <p>Ved å opprette en konto, godtar du vår <a href="#" style="color:dodgerblue">Vilkår og personvern.</a></p>
+
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">Registrer deg</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script>
+
+
+</script>
+
+</body>
+</html>
