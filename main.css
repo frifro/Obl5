@@ -6,9 +6,10 @@ body {
     box-sizing: border-box
 }
 
-h2{
+h2 {
     text-align: center;
 }
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
@@ -40,21 +41,22 @@ button {
 button:hover {
     opacity: 1;
 }
+
 /*Radio button */
-.radio-button{
+.radio-button {
     margin-bottom: 30px;
 }
+
 /* Float signup button */
 .signupbtn {
     float: left;
-    width:50%;
+    width: 50%;
 }
 
 /* Add padding to container elements */
 .container {
     padding: 16px;
 }
-
 
 /* Modal Content/Box */
 .sign-up-content {
@@ -69,7 +71,6 @@ hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
-
 
 /* Clear floats */
 .clearfix::after {
